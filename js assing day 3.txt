@@ -1,0 +1,45 @@
+
+Java script assingment Day 3
+
+que1.
+ans:  
+for(i=1;i<=100;i=i+1)
+{
+if(i%5==0 || i%3==0 || i%15==0 ){
+  if(i%3==0 || i%5==0){
+    if(i%3==0){
+      console.log("BUZZ")
+    }
+    else{
+      console.log("FIZZ")
+        }
+  }
+  else{
+    console.log("FIZZBUZZ")
+      }
+
+}
+
+else{
+  console.log(i)
+}
+}
+
+
+
+que 2.palindrome
+ans
+s= "write your sentene here:"
+word=""
+for(k of s){
+  if (k !=" "){
+    word=word+k
+  }
+  else{
+    rev=word.split("").reverse().join("")
+    if(rev==word){
+console.log(word)      
+    }
+    word=""
+  }
+}
